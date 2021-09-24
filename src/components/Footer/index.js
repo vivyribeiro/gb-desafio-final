@@ -8,7 +8,7 @@ export default function FooterSection(){
             <div className="footer-left">
                 <div className="copyright">
                     <a href="#home" > 
-                        <img src={LogoFooter} className="logo-footer"/>
+                        <img src={LogoFooter} className="logo-footer" alt="logo"/>
                     </a>
                     <p>direitos reservados, corebiz 2021</p>
                     <div className="social-links">

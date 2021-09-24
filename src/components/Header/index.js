@@ -6,8 +6,8 @@ export default function HeaderSection(){
     return(
         <header className="section-header">
             <nav className="container-header">
-                <a id="home">
-                    <img src={LogoHeader} className="logo-header"/>
+                <a  href="/" id="home">
+                    <img src={LogoHeader} className="logo-header" alt="logo" />
                 </a>
                 <div>
                     <ul class="desktop-links">

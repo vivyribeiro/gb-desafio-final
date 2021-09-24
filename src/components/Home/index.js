@@ -1,13 +1,13 @@
-import React, { useEffect, useState }from 'react';
+// import React, { useEffect, useState }from 'react';
 import './home.css';
 import {  FaChevronCircleRight  } from "react-icons/fa";
 
 export default function HomeSection(){
-    const [index, setIndex] = useState(0);
+    // const [index, setIndex] = useState(0);
 
-    const Data = async () =>{
-        await fetch('https://my-json-server.typicode.com/vivyribeiro/my-fakeapi/Images');
-    }
+    // const Data = async () =>{
+    //     await fetch('https://my-json-server.typicode.com/vivyribeiro/my-fakeapi/Images');
+    // }
 
     return(
         <div className="section-home">
