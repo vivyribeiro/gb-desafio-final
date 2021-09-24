@@ -1,0 +1,186 @@
+.section-home{
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    height: 75vh;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+
+.left-content{
+    display: grid;
+    align-items: end;
+    width: 35%;
+    /* height: 70vh; */
+}
+
+.imgs-title{
+    color: var(--base-color);
+    text-align: left;
+    margin: 6rem 0 5rem 0;
+}
+
+.cta-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 57%;
+    height: 3rem;
+    color: var(--body-color);
+    background-color: var(--base-color);
+    border-radius: 3rem;
+    margin-top: 3rem;
+}
+
+.cta-link span{
+    font-weight: 700;
+    font-size:  calc(var(--subtitle-font-size) + 0.25rem);
+    font-family:  var(--family-font);
+    margin-right: .5rem;
+}
+
+.cta-link:hover{
+    background-color: var(--hover-color);
+}
+
+.container-thumbnails{
+    display: flex;
+    justify-content: flex-start;
+    grid-gap: .5rem;
+    gap: .5rem;
+}
+
+.thumbnail-btn{
+    width: 5rem;
+    height: 3.75rem;
+    background-color: blueviolet;
+    border-width: 2px;
+    border-color: var(--base-color-second);
+    border-radius: .5rem;
+}
+
+.thumbnail-btn:hover{
+    background-color: var(--hover-color);
+}
+
+.active{
+    border-color: var(--base-color);
+    border-width: 2px;
+}
+
+.right-content{
+    display: flex;
+    justify-content: center;
+    /*width: 65%;
+    margin: auto;
+    padding-left: 2rem; */
+}
+
+.current-banner{
+    width: 55vw;
+    height: 67vh;
+    /*width: 60vw;
+    height: 70vh;*/
+    margin: auto;  
+    background-color: blueviolet;
+    border-radius: 1rem;
+}
+
+
+@media screen and (min-width: 1024px){
+
+    .section-home{
+        /*margin: auto;
+        height: 60vh;*/ 
+    }
+
+    .left-content{
+        /*height: 67%;
+        height: 33vh; */
+    }
+
+    .imgs-title{
+        /* margin: 2rem 2rem 0; */
+    }
+
+    .current-banner{
+        /* height: 40vh; */
+    }
+
+}
+
+
+@media screen and (max-width: 545px){
+
+    .section-home {
+        display: grid;
+        align-items: center;
+        height: 90vh;
+        justify-content: center;
+    }
+    
+    .left-content {
+        width: 100%;
+        height: 50%;
+        /* height: 40vh; */
+        align-items: flex-start;
+    }
+    
+    .imgs-title {
+        margin: 1rem 0;
+    }
+    
+    .cta-link {
+        margin-top: 1rem;
+    }
+    
+    .container-thumbnails {
+        justify-content: space-between;
+        order: 1;
+    }
+    
+    .right-content {
+        width: auto;
+        height: auto;
+        padding:0;
+    }
+    
+    .current-banner {
+        height: 40vh;
+        margin: 0;
+    }
+    
+}
+
+
+@media screen and (max-width: 320px){
+
+    .section-home {
+        height: 100vh;
+    }
+    
+    .left-content {
+        width: 90vw;
+        height: 30vh;
+        margin-bottom: 1rem;
+    }
+    
+    .imgs-title {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .thumbnail-btn{
+        width: 3.65rem;
+    }
+
+    .footer-left{
+        height: 70vh;
+    }
+
+    .menu.links li{
+        padding: .5rem 0;
+    }
+
+}
