@@ -32,7 +32,7 @@
 }
 
 .social-links a{
-    font: 400 calc(var(--subtitle-font-size)-0.25) var(--family-font);
+    font-size: var(--title-font-size);
     color: var(--body-color);
 }
 
