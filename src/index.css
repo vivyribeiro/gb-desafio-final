@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -23,19 +23,17 @@ body {
 
 /*====  VARIABLES ============================ */
 
-:root {
+/* :root { */
  
-  /* HSL color mode */
+  /* HSL color mode 
   --body-color: hsl(0,0%,0%);
   --base-color: hsl(0,0%,100%);
   --base-color-second: hsl(0,0%,95%);
-  --hover-color: hsl(0,0%,43%);
+  --hover-color: hsl(0,0%,43%);*/
 
-  /* fonts */
+  /* fonts 
   --title-font-size: 1.15rem;
   --subtitle-font-size: .75rem;
-  --family-font: 'Montserrat', sans-serif;
-}
-
-
+  --family-font: 'Montserrat', sans-serif;*/
+/* } */
 

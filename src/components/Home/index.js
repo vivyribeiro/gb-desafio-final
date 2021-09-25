@@ -21,25 +21,25 @@ export default function HomeSection(){
             </div>
             <div className="container-thumbnails">
                     <button className="thumbnail-btn">
-                        <img src="" alt=""/>
+                        <img src="" alt="miniatura 1"/>
                         
                     </button>
                     <button className="thumbnail-btn">
-                        <img src="" alt=""/>
+                        <img src="" alt="miniatura 2"/>
                         
                     </button>
                     <button className="thumbnail-btn">
-                        <img src="" alt=""/>
+                        <img src="" alt="miniatura 3"/>
                         
                     </button>
                     <button className="thumbnail-btn">
-                        <img src="" alt=""/>
+                        <img src="" alt="miniatura 4"/>
                         
                     </button>
                 </div>
             <div className="right-content">
                 <div className="current-banner">
-                    <img src="" alt=""/>
+                    <img src="" alt="banner"/>
                 </div>
             </div>
         </div>

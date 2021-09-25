@@ -20,13 +20,15 @@
 
 .desktop-links{
     display: flex;
-    font-size: calc(var(--title-font-size) + 0.75rem);
     gap: 1rem;
 }
 
 .desktop-links a{
     opacity: 1;
     visibility: visible;
+    font-family: var(--family-font);
+    font-size: calc(var(--title-font-size) + 0.15rem);
+    font-weight: 700;
     color: var(--base-color);
     transition: color 0.2s;
     position: relative;
@@ -53,6 +55,23 @@
 
 .toggle {
     display: none;
+}
+
+@media screen and (min-width: 1326px){
+
+    .desktop-links{
+        padding-right: 2rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 1920px){
+
+    .desktop-links{
+        padding-right: 3rem;
+    }
+    
 }
 
 

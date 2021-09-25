@@ -11,13 +11,13 @@ export default function HeaderSection(){
                 </a>
                 <div>
                     <ul class="desktop-links">
-                        <li><a class="title" href="https://www.corebiz.ag/pt/about/" target="_blank" 
+                        <li><a href="https://www.corebiz.ag/pt/about/" target="_blank" 
                         rel="noreferrer noopener">a corebiz</a></li>
-                        <li><a class="title" href="https://www.corebiz.ag/pt/#framework-title" target="_blank" 
+                        <li><a href="https://www.corebiz.ag/pt/#framework-title" target="_blank" 
                         rel="noreferrer noopener">serviços</a></li>     
-                        <li><a class="title" href="https://www.corebiz.ag/pt/cases/" target="_blank" 
+                        <li><a href="https://www.corebiz.ag/pt/cases/" target="_blank" 
                         rel="noreferrer noopener">cases</a></li>    
-                        <li><a class="title" href="https://www.corebiz.ag/pt/contato/" target="_blank" 
+                        <li><a href="https://www.corebiz.ag/pt/contato/" target="_blank" 
                         rel="noreferrer noopener">contato</a></li>
                     </ul>
                 </div>

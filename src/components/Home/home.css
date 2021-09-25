@@ -13,7 +13,6 @@
     display: grid;
     align-items: end;
     width: 35%;
-    /* height: 70vh; */
 }
 
 .imgs-title{
@@ -89,26 +88,20 @@
 }
 
 
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1150px){
 
     .section-home{
-        /*margin: auto;
-        height: 60vh;*/ 
+        column-gap: 2rem;
     }
-
-    .left-content{
-        /*height: 67%;
-        height: 33vh; */
+    
+    .cta-link{
+        margin: 1rem 0;
     }
-
-    .imgs-title{
-        /* margin: 2rem 2rem 0; */
+    
+    .container-thumbnails{
+        margin-bottom: 1rem;
     }
-
-    .current-banner{
-        /* height: 40vh; */
-    }
-
+    
 }
 
 
@@ -148,6 +141,7 @@
     }
     
     .current-banner {
+        width: 95vw;
         height: 40vh;
         margin: 0;
     }
