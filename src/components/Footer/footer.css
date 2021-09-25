@@ -11,7 +11,6 @@
     display: flex;
     padding: 2rem 2rem 2rem 4rem;
     align-items: flex-start;
-    /* padding: 2rem 4rem 2rem 3rem; */
 }
 
 .copyright{
@@ -71,7 +70,6 @@
     background-color: var(--base-color-second);
     padding: 0 2.5rem 2rem;
     align-items: flex-start;
-    /* padding: 0 2rem; */
 }
 
 .location{
@@ -80,12 +78,12 @@
 }
 
 .title{
-    font: 900 var(--title-font-size) var(--family-font);
+    font: 700 var(--title-font-size) var(--family-font);
     padding-bottom: .5rem;
 }
 
 .subtitle{
-    font: 700 var(--subtitle-font-size) var(--family-font);
+    font: 600 var(--subtitle-font-size) var(--family-font);
     padding: .5rem 0;
 }
 
