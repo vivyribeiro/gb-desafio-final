@@ -1,7 +1,7 @@
 # **Go Beyond 3ª Edição - Desafio Final** 
 ## 🎯 **_O Desafio_** 
 
-Para o desafio final, o objetivo foi réplicar um site modelo, e consumir uma API que forneceria imagens e titulos para compomentes da home.
+Para o desafio final, o objetivo foi replicar um site modelo, e consumir uma API que forneceria imagens e titulos para compomentes da home.
 
 ## 📚 **_Recursos Fornecidos_**
 
