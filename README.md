@@ -30,7 +30,7 @@ Para o desafio final, o objetivo foi replicar um site modelo, e consumir uma API
 ## 👩‍💻 **_Amostra do desafio_**
 <br>
 
-![Desafio Final](https://i.imgur.com/MUWIN7X.gif)
+![Desafio Final](https://i.imgur.com/7ATYOFY.gif)
 
 <br>
 
