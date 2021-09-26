@@ -30,7 +30,9 @@ Para o desafio final, o objetivo foi replicar um site modelo, e consumir uma API
 ## 👩‍💻 **_Amostra do desafio_**
 <br>
 
-[Desafio Final](https://i.imgur.com/7ATYOFY.gif)
+
+![gb3-desafio-final](https://user-images.githubusercontent.com/86025015/134819794-96a50999-f3bc-468e-99fa-ccfab29cfa04.gif)
+
 
 <br>
 
@@ -55,7 +57,7 @@ Depois de baixar localmente, vá até a pasta do repositório e digite seguinte 
 
 ```
 cd my-app
-yarn start 
+yarn start ou npm start
 ```
 
 
@@ -67,7 +69,7 @@ Se preferir você pode começar um novo projeto, digite no seu terminal
 ```sh
 npx create-react-app my-app
 cd my-app
-npm start 
+yarn start ou npm start 
  ```
 
 Veja mais sobre isso na  [Documentação do Create React App](https://create-react-app.dev/docs/getting-started/).
