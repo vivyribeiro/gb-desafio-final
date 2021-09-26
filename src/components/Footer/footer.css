@@ -18,7 +18,9 @@
 }
 
 .copyright p{
-    font: 600 var(--subtitle-font-size) var(--family-font);
+    font-weight: 600;
+    font-size:   var(--subtitle-font-size);
+    font-family: var(--family-font);
     padding: .75rem 0;
 }
 
@@ -78,12 +80,16 @@
 }
 
 .title{
-    font: 700 var(--title-font-size) var(--family-font);
+    font-weight: 700;
+    font-size:  var(--title-font-size);
+    font-family:  var(--family-font);
     padding-bottom: .5rem;
 }
 
 .subtitle{
-    font: 600 var(--subtitle-font-size) var(--family-font);
+    font-weight: 600;
+    font-size:  var(--subtitle-font-size);
+    font-family:  var(--family-font);
     padding: .5rem 0;
 }
 
