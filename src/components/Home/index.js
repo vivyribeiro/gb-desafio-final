@@ -25,8 +25,8 @@ export default function  HomeSection(){
     }, []);
 
         return (
-          <div className="background-home">          
-            <div className="section-home">
+          <div className="section-home">          
+            <div className="main-home">
                 <div className="left-content">
                     <h1 className="imgs-title">{data[index].title}</h1>
                     <a className="cta-link" href="https://www.corebiz.ag/pt/about/" target="_blank" 

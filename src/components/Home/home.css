@@ -1,9 +1,9 @@
-.background-home{
+.section-home{
     width: 100%;
     background-color: var(--body-color);
 }
 
-.section-home{
+.main-home{
     display: flex;
     align-items: flex-start;
     width: 90%;
@@ -116,7 +116,7 @@
 
 @media screen and (max-width: 1920px) and (min-width: 1440px){
 
-    .section-home{
+    .main-home{
         height: 100vh;
     }
 
@@ -142,7 +142,7 @@
 
 @media screen and (max-width: 1150px){
 
-    .section-home{
+    .main-home{
         column-gap: 2rem;
     }
 
@@ -164,7 +164,7 @@
 
 @media screen and (max-width: 545px){
 
-    .section-home {
+    .main-home {
         display: grid;
         align-items: center;
         height: 90vh;
@@ -217,7 +217,7 @@
 
 @media screen and (max-width: 320px){
 
-    .section-home {
+    .main-home {
         height: 100vh;
     }
     
