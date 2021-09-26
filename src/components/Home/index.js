@@ -25,7 +25,7 @@ export default function  HomeSection(){
     }, []);
 
         return (
-
+          <div className="background-home">          
             <div className="section-home">
                 <div className="left-content">
                     <h1 className="imgs-title">{data[index].title}</h1>
@@ -64,5 +64,6 @@ export default function  HomeSection(){
                     </div>
                 </div>
             </div>
-            )
+          </div>
+        )
 }

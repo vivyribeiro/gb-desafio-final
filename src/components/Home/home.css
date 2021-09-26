@@ -1,3 +1,8 @@
+.background-home{
+    width: 100%;
+    background-color: var(--body-color);
+}
+
 .section-home{
     display: flex;
     align-items: flex-start;
