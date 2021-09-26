@@ -6,15 +6,15 @@ Para o desafio final, o objetivo foi réplicar um site modelo, e consumir uma AP
 ## 📚 **_Recursos Fornecidos_**
 
 
-#### 🔗 Instruções do desafio - : https://whimsical.com/go-beyond-TcK8nmurXeQmuiFyvwy3Kd
+🔗 Instruções do desafio - : https://whimsical.com/go-beyond-TcK8nmurXeQmuiFyvwy3Kd
 
 <br>
 
-#### 🔗 Layout Mobile e Desktop - https://xd.adobe.com/view/e100320d-9539-4cd9-9146-e27f75204e69-b453/grid/
+🔗 Layout Mobile e Desktop - https://xd.adobe.com/view/e100320d-9539-4cd9-9146-e27f75204e69-b453/grid/
 
 <br/>
 
-#### 🔗 Site Modelo - https://go-beyond-2021-final-challenge.vercel.app/
+🔗 Site Modelo - https://go-beyond-2021-final-challenge.vercel.app/
 
 <br>
 
@@ -24,7 +24,8 @@ Para o desafio final, o objetivo foi réplicar um site modelo, e consumir uma AP
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JavaScript 
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> HTML
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">  CSS
-</div><br>
+</div>
+<br>
 
 ## 👩‍💻 **_Amostra do desafio_**
 <br>
@@ -44,7 +45,7 @@ Para o desafio final, o objetivo foi réplicar um site modelo, e consumir uma AP
 
 ## 💡 **_Aprenda Mais_**
 
-Você pode saber mais sobre o desafio direto do código, basta clonar esse [repositório](https://github.com/vivyribeiro/gb-desafio-final.git), abrir seu terminal do Git ou faça o download dele [aqui](https://git-scm.com/downloads), após isso 
+Você pode saber mais sobre o desafio direto do código, basta clonar esse [repositório](https://github.com/vivyribeiro/gb-desafio-final.git), abrir seu terminal do Git ou faça o download dele [aqui](https://git-scm.com/downloads), após isso digite 
 ``` 
 git clone https://github.com/vivyribeiro/gb-desafio-final.git 
 ```
