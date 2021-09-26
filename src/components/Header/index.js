@@ -1,3 +1,4 @@
+import React from 'react';
 import './header.css';
 import LogoHeader from '../assets/logo-corebiz-white.svg'
 import { FiMenu, FiX } from "react-icons/fi";
