@@ -85,6 +85,14 @@
     justify-content: center;
 }
 
+.numbertext {
+    position: absolute;
+    margin-top: 1rem;
+    padding: .25rem .35rem;
+    background-color: var(--base-color);
+    font: 600 var(--title-font-size) var(--family-font);
+}
+
 .current-banner{
     width: 55vw;
     height: 67vh;
@@ -189,6 +197,10 @@
         padding:0;
     }
     
+    .numbertext {
+        top: 75%;
+    }
+
     .current-banner {
         width: 95vw;
         height: 40vh;
@@ -218,12 +230,8 @@
         width: 3.65rem;
     }
 
-    .footer-left{
-        height: 70vh;
-    }
-
-    .menu.links li{
-        padding: .5rem 0;
+    .numbertext{
+        top: 87%;
     }
 
 }

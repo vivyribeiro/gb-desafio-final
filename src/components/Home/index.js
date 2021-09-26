@@ -14,12 +14,14 @@ export default function  HomeSection(){
 
     useEffect(() => {  
         const imgData = async () => {
-        const response = await fetch('https://my-json-server.typicode.com/vivyribeiro/my-fakeapi/Images');
-        const data = await response.json(); 
+            const response = await fetch('https://my-json-server.typicode.com/vivyribeiro/my-fakeapi/Images');
+            const data = await response.json(); 
        
-       setData(data); 
-       console.log(data);  
-    };  imgData();  
+            setData(data); 
+            console.log(data);  
+        };  
+        imgData();  
+
     }, []);
 
         return (
@@ -57,8 +59,9 @@ export default function  HomeSection(){
                 </div>
                 <div className="right-content">
                     <div className="current-banner">
-                    <img src={data[index].url} alt="banner"/>
-                </div>
+                        <div class="numbertext">{data[index].id} / {data.length}</div>   
+                        <img src={data[index].url} alt="banner"/>
+                    </div>
                 </div>
             </div>
             )

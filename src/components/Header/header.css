@@ -103,6 +103,7 @@
         height: 47%;
         left: 0;
         top: 6rem;
+        gap: .5rem;
         position: absolute;
         background-color: black;
     }

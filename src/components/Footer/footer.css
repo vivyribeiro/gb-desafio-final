@@ -53,7 +53,7 @@
 }
 
 .menu-links li{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--body-color);
     padding: .25rem 0;
 }
 
@@ -177,6 +177,18 @@
         width: 90%;
         margin: auto;
         padding:0;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    .footer-left{
+        height: 70vh;
+    }
+
+    .menu.links li{
+        padding: .5rem 0;
     }
 
 }
