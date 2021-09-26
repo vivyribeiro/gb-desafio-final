@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './footer.css';
 import LogoFooter from '../assets/logo-corebiz-black.svg';
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";

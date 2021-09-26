@@ -1,70 +1,73 @@
-# Go Beyond 3ª Edição - Desafio Final 🎯
+# **Go Beyond 3ª Edição - Desafio Final** 
+## 🎯 **_O Desafio_** 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Para o desafio final, o objetivo foi réplicar um site modelo, e consumir uma API que forneceria imagens e titulos para compomentes da home.
 
-## Available Scripts
+## 📚 **_Recursos Fornecidos_**
 
-In the project directory, you can run:
 
-### `yarn start`
+### 🔗 Instruções do desafio - : https://whimsical.com/go-beyond-TcK8nmurXeQmuiFyvwy3Kd
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 🔗 Layout Mobile e Desktop - https://xd.adobe.com/view/e100320d-9539-4cd9-9146-e27f75204e69-b453/grid/
 
-### `yarn test`
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔗 Site Modelo - https://go-beyond-2021-final-challenge.vercel.app/
 
-### `yarn build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 **_Tecnologias Utilizadas_**
+<div style="display: inline_block"><br>
+  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> React 
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JavaScript 
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> HTML
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">  CSS
+</div><br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 👩‍💻 **_Amostra do desafio_**
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Desafio Final](https://i.imgur.com/MUWIN7X.gif)
 
-### `yarn eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🧠 **_Aprendizagem_**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x]  Uso de hooks - [useState](https://pt-br.reactjs.org/docs/hooks-state.html) e [useEffect](https://pt-br.reactjs.org/docs/hooks-effect.html)
+- [x]  Criaçção e uso de API personalizada - [myfakeapi](https://my-json-server.typicode.com/vivyribeiro/my-fakeapi). Ferramenta utilizada [JSON Placeholder](https://jsonplaceholder.typicode.com/)
+- [x]  Usar funções assíncronas [async e await](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function)
+- [x]  Layout responsivo com [Media Queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 💡 **_Aprenda Mais_**
 
-## Learn More
+Você pode saber mais sobre o desafio direto do código, basta clonar esse [repositório](https://github.com/vivyribeiro/gb-desafio-final.git), abrir seu terminal do Git ou faça o download dele [aqui](https://git-scm.com/downloads), após isso 
+``` 
+git clone https://github.com/vivyribeiro/gb-desafio-final.git 
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Depois de baixar localmente, vá até a pasta do repositório e digite seguinte comando 
 
-### Code Splitting
+```
+cd my-app
+yarn start 
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Aguarde até o aplicativo ser executado  no modo de desenvolvimento. Abra http://localhost:3000 para visualizá-lo no navegador.
 
-### Making a Progressive Web App
+Se prefeirir comece um novo projeto, digite no seu terminal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+npx create-react-app my-app
+cd my-app
+npm start 
+ ```
 
-### Advanced Configuration
+Veja mais sobre isso na  [Documentação do Create React App](https://create-react-app.dev/docs/getting-started/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
