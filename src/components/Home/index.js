@@ -1,33 +1,32 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import './home.css';
 import {  FaChevronCircleRight  } from "react-icons/fa";
 
-class  HomeSection extends Component(){
-    // const [index, setIndex] = useState(0);
+export default function  HomeSection(){
+    const [index, setIndex] = useState(0);
 
-    // const Data = async () =>{
-    //     await fetch('https://my-json-server.typicode.com/vivyribeiro/my-fakeapi/Images');
-    // }
+    const [data, setData] = useState([
+        { id: " ", title: " ", url: " ", thumbnailUrl: " "},
+        { id: " ", title: " ", url: " ", thumbnailUrl: " "},
+        { id: " ", title: " ", url: " ", thumbnailUrl: " "},
+        { id: " ", title: " ", url: " ", thumbnailUrl: " "},
+    ]);
 
-    constructor(props) {
-        super(props);
-        this.state = {
-          posts: []
-        }
-      }
-      componentDidMount() {
-        const url = "https://my-json-server.typicode.com/vivyribeiro/my-fakeapi/Images";
-        fetch(url)
-        .then(response => response.json())
-        .then(json => this.setState({ Images: json }))
-      }
-      render() {
-        const { Images } = this.state;  
+    useEffect(() => {  
+        const imgData = async () => {
+        const response = await fetch('https://my-json-server.typicode.com/vivyribeiro/my-fakeapi/Images');
+        const data = await response.json(); 
+       
+       setData(data); 
+       console.log(data);  
+    };  imgData();  
+    }, []);
+
         return (
-            {Images.map((Image) => (
+
             <div className="section-home">
                 <div className="left-content">
-                    <h1 className="imgs-title">TITÚLO DA IMAGEM</h1>
+                    <h1 className="imgs-title">{data[index].title}</h1>
                     <a className="cta-link" href="https://www.corebiz.ag/pt/about/" target="_blank" 
                     rel="noreferrer noopener">
                     <span >veja mais  </span>
@@ -35,34 +34,32 @@ class  HomeSection extends Component(){
                 </a>
                 </div>
                 <div className="container-thumbnails">
-                    <button className="thumbnail-btn">
-                        <img src="" alt="miniatura 1"/>
+                    <button onClick={() => setIndex(0)} className="thumbnail-btn">
+                        <img className={index === 0 ? "active " : "inactive"}
+                        src={data[0].thumbnailUrl}  alt="miniatura 1"/>
                         
                     </button>
-                    <button className="thumbnail-btn">
-                        <img src="" alt="miniatura 2"/>
+                    <button onClick={() => setIndex(1)} className="thumbnail-btn">
+                        <img className={index === 1 ? "active" : "inactive"}
+                        src={data[1].thumbnailUrl}  alt="miniatura 2"/>
                         
                     </button>
-                    <button className="thumbnail-btn">
-                        <img src="" alt="miniatura 3"/>
+                    <button onClick={() => setIndex(2)} className="thumbnail-btn">
+                        <img className={index === 2 ? "active" : "inactive"}
+                        src={data[2].thumbnailUrl}  alt="miniatura 3"/>
                         
                     </button>
-                    <button className="thumbnail-btn">
-                        <img src="" alt="miniatura 4"/>
+                    <button onClick={() => setIndex(3)} className="thumbnail-btn">
+                        <img className={index === 3 ? "active" : "inactive"}
+                        src={data[3].thumbnailUrl}  alt="miniatura 4"/>
                         
                     </button>
                 </div>
                 <div className="right-content">
                     <div className="current-banner">
-                    <img src="" alt="banner"/>
+                    <img src={data[index].url} alt="banner"/>
                 </div>
                 </div>
             </div>
             )
-            )
-            }
-         );
-      }
 }
-
-export default HomeSection;

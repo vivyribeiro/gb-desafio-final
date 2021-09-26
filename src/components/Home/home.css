@@ -52,21 +52,32 @@
 }
 
 .thumbnail-btn{
-    width: 5rem;
-    height: 3.75rem;
-    background-color: blueviolet;
-    border-width: 2px;
-    border-color: var(--base-color-second);
+    width: 5.75rem;
+    height: 4.25rem;
+    background: none;
+    border: none;
     border-radius: .5rem;
 }
 
 .thumbnail-btn:hover{
-    background-color: var(--hover-color);
+    opacity: .5;
 }
 
-.active{
-    border-color: var(--base-color);
-    border-width: 2px;
+.thumbnail-btn img{
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
+ .active{
+    background: none;
+    border: 2px solid var(--base-color);
+}
+
+.inactive{
+    background: none;
+    border: none;
 }
 
 .right-content{
@@ -78,8 +89,41 @@
     width: 55vw;
     height: 67vh;
     margin: auto;  
-    background-color: blueviolet;
+    background: none;
     border-radius: 1rem;
+}
+
+.current-banner img {
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 1920px) and (min-width: 1440px){
+
+    .section-home{
+        height: 100vh;
+    }
+
+    .imgs-title{
+        margin: 3.25rem 2rem 2.5rem 0;
+    }
+
+    .current-banner{
+        height: 75vh;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1326px){
+
+    .imgs-title{
+        margin: 3.15rem 0 3rem 0;
+    }
+    
 }
 
 
@@ -88,13 +132,18 @@
     .section-home{
         column-gap: 2rem;
     }
+
+    .imgs-title{
+        margin: 4rem 0 3rem 0;
+    }
     
     .cta-link{
         margin: 1rem 0;
     }
     
-    .container-thumbnails{
-        margin-bottom: 1rem;
+    .thumbnail-btn{
+        width: 4.75rem;
+        height: 3.25rem;
     }
     
 }
@@ -116,7 +165,8 @@
     }
     
     .imgs-title {
-        margin: 1rem 0;
+        margin: 0;
+        font-size: calc(var(--title-font-size) + 0.5rem);
     }
     
     .cta-link {
@@ -126,6 +176,11 @@
     .container-thumbnails {
         justify-content: space-between;
         order: 1;
+    }
+
+    .thumbnail-btn{
+        width: 4.75rem;
+        height: 3.75rem;
     }
     
     .right-content {

@@ -18,7 +18,7 @@
 }
 
 .copyright p{
-    font: 100 var(--subtitle-font-size) var(--family-font);
+    font: 600 var(--subtitle-font-size) var(--family-font);
     padding: .75rem 0;
 }
 
