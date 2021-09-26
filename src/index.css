@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 
 * {
@@ -22,23 +22,23 @@
   body {
     background-color: var(--body-color);
     font-family: var(--family-font);
-  } */
+  }
   
-  /*====  VARIABLES ============================ 
+  /*====  VARIABLES ============================ */
   
-  :root {*/
+  :root {
    
-    /* HSL color mode 
+    /* HSL color mode */
     --body-color: hsl(0,0%,0%);
     --base-color: hsl(0,0%,100%);
     --base-color-second: hsl(0,0%,95%);
-    --hover-color: hsl(0,0%,43%);*/
+    --hover-color: hsl(0,0%,43%);
   
-    /* fonts 
+    /* fonts */
     --title-font-size: 1.15rem;
     --subtitle-font-size: .75rem;
     --family-font: 'Montserrat', sans-serif;
-  }*/
+  }
   
   
   
